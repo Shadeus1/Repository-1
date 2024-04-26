@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class Main {
-    private static HashMap<String, String> animalSounds = new HashMap<>();
+    final private static HashMap<String, String> animalSounds = new HashMap<>();
 
     static {
         animalSounds.put("Dog", "Woof");
