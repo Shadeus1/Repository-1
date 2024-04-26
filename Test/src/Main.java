@@ -20,9 +20,7 @@ public class Main {
         animals.add("Cow");
 
         for (String animal : animals) {
-            if (animal.equals("Dog"))  {
-                continue;
-            }
+
             System.out.println(animal + " says " + getSound(animal));
         }
     }
