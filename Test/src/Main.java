@@ -21,6 +21,9 @@ public class Main {
 
         for (String animal : animals) {
 
+            if (animal.equals("Dog"))   {
+                continue;
+            }
             System.out.println(animal + " says " + getSound(animal));
         }
     }
