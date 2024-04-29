@@ -21,12 +21,18 @@ public class Main {
 
         for (String animal : animals) {
 
-            if (animal.equals("Dog"))   {
+            if (animal.equals("Dog")) {
                 continue;
             }
             System.out.println(animal + " says " + getSound(animal));
         }
+
+        Dog dog1 = new Dog("Pug", "walking", "happy!");
+        System.out.println(dog1);
+        Dog dog2 = new Dog("German Shepard", "running", "angry!");
+        System.out.println(dog2);
     }
+
 
     private static String getSound(String animal) {
         return animalSounds.get(animal);
